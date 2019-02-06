@@ -1,0 +1,154 @@
+body {
+    background-color: rgba(163, 22, 22, 0.87);
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    max-height: 200px;
+    min-width: auto;
+    min-height: auto;
+    position: relative;
+    top: 200px;
+}
+#div1{
+    transition-timing-function: ease;
+}
+
+.Rules{
+    top: 50px;
+    max-width: 300px;
+    max-height: 100px;
+    padding-bottom: 40px;
+}
+.Game{
+    top: 60px;
+    max-width: 300px;
+    max-height: 100px;
+    padding-bottom: 20px;
+}
+.Profile{
+    top: 50px;
+    max-width: 200px;
+    max-height: 100px;
+    padding-bottom: 20px;
+}
+.userInfo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin: auto auto;
+    align-content: center;
+    top: 40px;
+}
+form {
+    /*width: 10px;
+    height: 10px;*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.submit, a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    position: relative;
+    top: 30px;
+    padding: 10px;
+}
+.indexLink{
+    padding: 0px;
+}
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.rules {
+    max-width: 800px;
+    min-width: auto;
+    max-height: fit-content;
+    min-height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    position:relative;
+    top: 40px;
+    
+}
+.rules h2, p, h3, .profile_info, h4, h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.profile {
+    max-width: 800px;
+    max-height: 1500px;
+    min-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile_picture {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile_picture img {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; /*centers the image*/
+  height: 100%;
+  width: auto;
+
+}
+.profile_info{
+    text-align: center;
+    position: relative;
+    bottom: -110px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.table {
+    border: 3px solid rgb(83, 2, 2);
+    max-width: 200px;
+    max-height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.table input{
+    max-width: 50px;
+}
+tr:nth-child(even) {
+    background-color: rgba(95, 28, 28, 0.76);
+    color: white;
+}
+tr:nth-child(odd) {
+    text-emphasis: weight black;
+}
+.button {
+    max-width: 90px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+
