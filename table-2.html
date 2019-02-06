@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td class="dice"></td>
+            <td class="dice"></td>
+            <td class="dice"></td>
+            <td class="dice"></td>
+            <td class="dice"></td>
+            <td rowspan="2"><button id="rollButton" type="button">Roll</button></td>
+        </tr>
+        <tr>
+            <td><input class="checkbox" type="checkbox"></td>
+            <td><input class="checkbox" type="checkbox"></td>
+            <td><input class="checkbox" type="checkbox"></td>
+            <td><input class="checkbox" type="checkbox"></td>
+            <td><input class="checkbox" type="checkbox"></td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>Yahtzee</caption>
+        <tr>
+          <th></th>
+          <th>Player 1</th>
+          <th>Player 2</th>
+
+        </tr>
+        <tr>
+            <td>Ones</td>
+            <td><input class="count" id="input" type="number" min="0" max="5" step="1"></input></td>
+            <td><input class="count2" id="input" type="number" min="0" max="5" step="1"></input></td>
+
+        </tr>
+        <tr>
+            <td>Twos</td>
+            <td><input class="count" type="number" min="0" max="10" step="2"></input></td>
+            <td><input class="count2" type="number" min="0" max="10" step="2"></input></td>
+
+
+        </tr>
+        <tr>
+            <td>Threes</td>
+            <td><input class="count" type="number" min="0" max="15" step="3"></input></td>
+            <td><input class="count2" type="number" min="0" max="15" step="3"></input></td>
+
+
+        </tr>
+        <tr>
+            <td>Fours</td>
+            <td><input class="count" type="number" min="0" max="20" step="4"></input></td>
+            <td><input class="count2" type="number" min="0" max="20" step="4"></input></td>
+
+
+        </tr>
+        <tr>
+            <td>Fives</td>
+            <td><input class="count" type="number" min="0" max="25" step="5"></input></td>
+            <td><input class="count2" type="number" min="0" max="25" step="5"></input></td>
+
+
+        </tr>
+        <tr>
+            <td>Sixes</td>
+            <td><input class="count" type="number" min="0" max="30" step="6"></input></td>
+            <td><input class="count2" type="number" min="0" max="30" step="6"></input></td>
+
+        </tr>
+        <tr class="lightYellow">
+            <td>Upper half sum: </td>
+            <td id="upperSum"></input></td>
+            <td id="upperSum2"></input></td>
+
+        </tr>
+        <tr>
+            <td>Bonus</td>
+            <td><input class="count" id="bonus"></input></td>
+            <td><input class="count2" id="bonus2"></input></td>
+
+        </tr>
+        <tr class="lightYellow">
+            <td>Upper half score: </td>
+            <td id="upperScore"></input></td>
+            <td id="upperScore2"></input></td>
+
+        </tr>
+        <tr>
+            <td>3 of a kind</td>
+            <td><input class="count" type="number" min="3" max="18" step="1"></input></td>
+            <td><input class="count2" type="number" min="3" max="18" step="1"></input></td>
+
+        </tr>
+        <tr>
+            <td>4 of a kind</td>
+            <td><input class="count" type="number" min="4" max="24" step="1"></input></td>
+            <td><input class="count2" type="number" min="4" max="24" step="1"></input></td>
+
+        </tr>
+        <tr>
+            <td>Full house</td>
+            <td><input class="count" type="number" min="7" max="28" step="1"></input></td>
+            <td><input class="count2" type="number" min="7" max="28" step="1"></input></td>
+
+        </tr>
+        <tr>
+            <td>Small straight</td>
+            <td><input class="count" type="number" min="0" max="15" step="15"></input></td>
+            <td><input class="count2" type="number" min="0" max="15" step="15"></input></td>
+
+        </tr>
+        <tr>
+            <td>Large straight</td>
+            <td><input class="count" type="number" min="0" max="20" step="20"></input></td>
+            <td><input class="count2" type="number" min="0" max="20" step="20"></input></td>
+
+        </tr>
+        <tr>
+            <td>Yahtzee</td>
+            <td><input class="count" id="ytz" type="number" min="0" max="50" step="50"></input></td>
+            <td><input class="count2" id="ytz2" type="number" min="0" max="50" step="50"></input></td>
+
+        </tr>
+        <tr>
+            <td>Chance</td>
+            <td><input class="count" type="number" min="0" max="30" step="1"></input></td>
+            <td><input class="count2" type="number" min="0" max="30" step="1"></input></td>
+
+        </tr>
+        <tr id="totalScore">
+            <td>TOTAL SCORE: </td>
+            <td id="total"></input></td>
+            <td id="total2"></input></td>
+
+        </tr>
+       
+      </table>
+
+      <img id="z10" src="img/z10.jpg">
+
+      <script src="main.js"></script>
+</body>
+</html>

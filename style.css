@@ -60,7 +60,7 @@ img {
     padding-bottom: 40px;
 }
 .Game{
-    top: 60px;
+    margin-top: 10%;
     max-width: 300px;
     max-height: 100px;
     padding-bottom: 20px;
@@ -190,6 +190,16 @@ tr:nth-child(odd) {
     max-width: 200px;
     max-height: 1500px;
 }
-
+.zlatan {
+    margin-left: 20%;
+    margin-right: auto;
+}
+#z10 {
+    max-width: 200px;
+    max-height: 200px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+}
 
 
