@@ -1,5 +1,6 @@
 body {
     background-color: rgba(163, 22, 22, 0.87);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 img {
     width: 100%;
@@ -181,7 +182,14 @@ tr:nth-child(odd) {
     margin-left: auto;
     margin-right: auto; 
 }
-
+.profile_table {
+    position: relative;
+    margin-top: 17%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    max-height: 1500px;
+}
 
 
 
