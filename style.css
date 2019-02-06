@@ -6,17 +6,46 @@ img {
     height: auto;
 }
 .logo {
+    position: relative;
+    top: 200px;
+    bottom: 100px;
     margin-left: auto;
     margin-right: auto;
     max-width: 500px;
     max-height: 200px;
     min-width: auto;
     min-height: auto;
-    position: relative;
-    top: 200px;
+    
 }
+
 #div1{
-    transition-timing-function: ease;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    max-height: 200px;
+    align-content: center;
+    
+}
+#div1 img {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    height: 4px;
+    animation-name: bigger;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes bigger {
+    form {
+        width: 20px;
+        height: 4px;
+    }
+    to {
+        width: 500px;
+        height: 200px;
+    }
 }
 
 .Rules{
